@@ -38,7 +38,7 @@
     
     
       
-        <title>1.1.0 - Siddhi IO IBMMQ</title>
+        <title>3.0.0 - Siddhi IO IBMMQ</title>
       
     
     
@@ -114,7 +114,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#api-docs-v110" tabindex="1" class="md-skip">
+      <a href="#api-docs-v300" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -140,7 +140,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                1.1.0
+                3.0.0
               
             </span>
           
@@ -294,42 +294,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../3.0.0/" title="3.0.0" class="md-nav__link">
-      3.0.0
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../1.1.2/" title="1.1.2" class="md-nav__link">
-      1.1.2
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../1.1.1/" title="1.1.1" class="md-nav__link">
-      1.1.1
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -341,11 +305,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        1.1.0
+        3.0.0
       </label>
     
-    <a href="./" title="1.1.0" class="md-nav__link md-nav__link--active">
-      1.1.0
+    <a href="./" title="3.0.0" class="md-nav__link md-nav__link--active">
+      3.0.0
     </a>
     
       
@@ -406,6 +370,42 @@
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.1.2/" title="1.1.2" class="md-nav__link">
+      1.1.2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.1.1/" title="1.1.1" class="md-nav__link">
+      1.1.1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1.1.0/" title="1.1.0" class="md-nav__link">
+      1.1.0
+    </a>
   </li>
 
         
@@ -598,15 +598,20 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/siddhi.io/siddhi-io-ibmmq/blob/master/api/1.1.0.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/siddhi.io/siddhi-io-ibmmq/blob/master/api/3.0.0.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="api-docs-v110">API Docs - v1.1.0</h1>
+                <h1 id="api-docs-v300">API Docs - v3.0.0</h1>
+<div class="admonition info">
+<p class="admonition-title">Tested Siddhi Core version: <em><a target="_blank" href="http://siddhi.io/en/v5.1/docs/query-guide/">5.1.2</a></em></p>
+<p>It could also support other Siddhi Core minor versions.</p>
+</div>
 <h2 id="sink">Sink</h2>
-<h3 id="ibmmq-sink">ibmmq <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#sink">(Sink)</a></em></h3>
-<p style="word-wrap: break-word">IBM MQ sink allows you to publish messages to an IBM MQ broker.</p>
-
-<p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<h3 id="ibmmq-sink">ibmmq <em><a target="_blank" href="http://siddhi.io/en/v5.1/docs/query-guide/#sink">(Sink)</a></em></h3>
+<p><p></p>
+<p style="word-wrap: break-word;margin: 0;">IBM MQ sink allows you to publish messages to an IBM MQ broker.</p>
+<p></p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
 <pre><code>@sink(type=&quot;ibmmq&quot;, destination.name=&quot;&lt;STRING&gt;&quot;, host=&quot;&lt;STRING&gt;&quot;, port=&quot;&lt;STRING&gt;&quot;, channel=&quot;&lt;STRING&gt;&quot;, queue.manager=&quot;&lt;STRING&gt;&quot;, username=&quot;&lt;STRING&gt;&quot;, password=&quot;&lt;STRING&gt;&quot;, batch.properties=&quot;&lt;STRING&gt;&quot;, @map(...)))
 </code></pre>
 
@@ -622,7 +627,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">destination.name</td>
-        <td style="vertical-align: top; word-wrap: break-word">The name of the queue to which the IBM MQ sink should send events.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The name of the queue to which the IBM MQ sink should send events.</p></td>
         <td style="vertical-align: top"></td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">No</td>
@@ -630,7 +635,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">host</td>
-        <td style="vertical-align: top; word-wrap: break-word">The host address of the MQ server.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The host address of the MQ server.</p></td>
         <td style="vertical-align: top"></td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">No</td>
@@ -638,7 +643,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">port</td>
-        <td style="vertical-align: top; word-wrap: break-word">The port of the MQ server.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The port of the MQ server.</p></td>
         <td style="vertical-align: top"></td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">No</td>
@@ -646,7 +651,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">channel</td>
-        <td style="vertical-align: top; word-wrap: break-word">The channel used to connect to the MQ server.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The channel used to connect to the MQ server.</p></td>
         <td style="vertical-align: top"></td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">No</td>
@@ -654,7 +659,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">queue.manager</td>
-        <td style="vertical-align: top; word-wrap: break-word">The name of the queue manager.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The name of the queue manager.</p></td>
         <td style="vertical-align: top"></td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">No</td>
@@ -662,7 +667,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">username</td>
-        <td style="vertical-align: top; word-wrap: break-word">The username to connect to the server. If this is not provided, the connection is attempted without both the username and the password.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The username to connect to the server. If this is not provided, the connection is attempted without both the username and the password.</p></td>
         <td style="vertical-align: top">null</td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">Yes</td>
@@ -670,7 +675,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">password</td>
-        <td style="vertical-align: top; word-wrap: break-word">The password to connect to the server. If this is not provided, the connection is attempted without both the username and the password.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The password to connect to the server. If this is not provided, the connection is attempted without both the username and the password.</p></td>
         <td style="vertical-align: top">null</td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">Yes</td>
@@ -678,7 +683,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">batch.properties</td>
-        <td style="vertical-align: top; word-wrap: break-word">IBM MQ properties which are supported by the client can be provided as key value pairs which is separated by ",". as an example batch.properties = 'XMSC_WMQ_CLIENT_RECONNECT_OPTIONS:1600,WMQ_CLIENT_RECONNECT:5005'.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">IBM MQ properties which are supported by the client can be provided as key value pairs which is separated by ",". as an example batch.properties = 'XMSC_WMQ_CLIENT_RECONNECT_OPTIONS:1600,WMQ_CLIENT_RECONNECT:5005'.</p></td>
         <td style="vertical-align: top">null</td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">Yes</td>
@@ -690,13 +695,18 @@
 <pre><code>@sink(type='ibmmq',destination.name='Queue1',host='192.168.56.3',port='1414',channel='Channel1',queue.manager = 'ESBQManager',password='1920',username='mqm',batch.properties = 'XMSC_WMQ_CLIENT_RECONNECT_OPTIONS:1600,WMQ_CLIENT_RECONNECT:5005',@map(type='text'))define stream SweetProductionStream(name string, amount double);
 </code></pre>
 
-<p style="word-wrap: break-word">This example shows how to connect to an IBM MQ queue and send messages.</p>
+<p></p>
+
+<p style="word-wrap: break-word;margin: 0;">This example shows how to connect to an IBM MQ queue and send messages.</p>
+
+<p></p>
 
 <h2 id="source">Source</h2>
-<h3 id="ibmmq-source">ibmmq <em><a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#source">(Source)</a></em></h3>
-<p style="word-wrap: break-word">IBM MQ source allows you to subscribe to an IBM message queue and receive messages. It has the ability to receive messages of the 'map' and 'text' message formats.</p>
-
-<p><span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
+<h3 id="ibmmq-source">ibmmq <em><a target="_blank" href="http://siddhi.io/en/v5.1/docs/query-guide/#source">(Source)</a></em></h3>
+<p><p></p>
+<p style="word-wrap: break-word;margin: 0;">IBM MQ source allows you to subscribe to an IBM message queue and receive messages. It has the ability to receive messages of the 'map' and 'text' message formats.</p>
+<p></p>
+<span id="syntax" class="md-typeset" style="display: block; font-weight: bold;">Syntax</span></p>
 <pre><code>@source(type=&quot;ibmmq&quot;, destination.name=&quot;&lt;STRING&gt;&quot;, host=&quot;&lt;STRING&gt;&quot;, port=&quot;&lt;STRING&gt;&quot;, channel=&quot;&lt;STRING&gt;&quot;, queue.manager=&quot;&lt;STRING&gt;&quot;, username=&quot;&lt;STRING&gt;&quot;, password=&quot;&lt;STRING&gt;&quot;, worker.count=&quot;&lt;INT&gt;&quot;, batch.properties=&quot;&lt;STRING&gt;&quot;, client.reconnecting.timeout=&quot;&lt;INT&gt;&quot;, @map(...)))
 </code></pre>
 
@@ -712,7 +722,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">destination.name</td>
-        <td style="vertical-align: top; word-wrap: break-word">The name of the queue name to which the IBM MQ source should subscribe.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The name of the queue name to which the IBM MQ source should subscribe.</p></td>
         <td style="vertical-align: top"></td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">No</td>
@@ -720,7 +730,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">host</td>
-        <td style="vertical-align: top; word-wrap: break-word">The host address of the IBM MQ server.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The host address of the IBM MQ server.</p></td>
         <td style="vertical-align: top"></td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">No</td>
@@ -728,7 +738,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">port</td>
-        <td style="vertical-align: top; word-wrap: break-word">The port of the IBM MQ server.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The port of the IBM MQ server.</p></td>
         <td style="vertical-align: top"></td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">No</td>
@@ -736,7 +746,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">channel</td>
-        <td style="vertical-align: top; word-wrap: break-word">The channel used to connect to the MQ server.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The channel used to connect to the MQ server.</p></td>
         <td style="vertical-align: top"></td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">No</td>
@@ -744,7 +754,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">queue.manager</td>
-        <td style="vertical-align: top; word-wrap: break-word">The name of the queue manager.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The name of the queue manager.</p></td>
         <td style="vertical-align: top"></td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">No</td>
@@ -752,7 +762,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">username</td>
-        <td style="vertical-align: top; word-wrap: break-word">The username to connect to the server. If this is not provided, the connection is attempted without both the username and the password.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The username to connect to the server. If this is not provided, the connection is attempted without both the username and the password.</p></td>
         <td style="vertical-align: top">null</td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">Yes</td>
@@ -760,7 +770,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">password</td>
-        <td style="vertical-align: top; word-wrap: break-word">The password to connect to the server. If this is not provided, the connection is attempted without both the username and the password.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The password to connect to the server. If this is not provided, the connection is attempted without both the username and the password.</p></td>
         <td style="vertical-align: top">null</td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">Yes</td>
@@ -768,7 +778,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">worker.count</td>
-        <td style="vertical-align: top; word-wrap: break-word">Number of worker threads listening on the given queue. When the multiple workers are enabled event ordering is not preserved.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">Number of worker threads listening on the given queue. When the multiple workers are enabled event ordering is not preserved.</p></td>
         <td style="vertical-align: top">1</td>
         <td style="vertical-align: top">INT</td>
         <td style="vertical-align: top">Yes</td>
@@ -776,7 +786,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">batch.properties</td>
-        <td style="vertical-align: top; word-wrap: break-word">IBM MQ properties which are supported by the client can be provided as key value pairs which is separated by ",". as an example batch.properties = 'XMSC_WMQ_CLIENT_RECONNECT_OPTIONS:1600,WMQ_CLIENT_RECONNECT:5005' </td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">IBM MQ properties which are supported by the client can be provided as key value pairs which is separated by ",". as an example batch.properties = 'XMSC_WMQ_CLIENT_RECONNECT_OPTIONS:1600,WMQ_CLIENT_RECONNECT:5005' </p></td>
         <td style="vertical-align: top">null</td>
         <td style="vertical-align: top">STRING</td>
         <td style="vertical-align: top">Yes</td>
@@ -784,7 +794,7 @@
     </tr>
     <tr>
         <td style="vertical-align: top">client.reconnecting.timeout</td>
-        <td style="vertical-align: top; word-wrap: break-word">The time a client waits for reconnection. The value should be provided in seconds.</td>
+        <td style="vertical-align: top; word-wrap: break-word"><p style="word-wrap: break-word;margin: 0;">The time a client waits for reconnection. The value should be provided in seconds.</p></td>
         <td style="vertical-align: top">30</td>
         <td style="vertical-align: top">INT</td>
         <td style="vertical-align: top">Yes</td>
@@ -796,7 +806,11 @@
 <pre><code>@source(type='ibmmq',destination.name='Queue1',host='192.168.56.3',port='1414',channel='Channel1',queue.manager = 'ESBQManager',password='1920',username='mqm',batch.properties = 'XMSC_WMQ_CLIENT_RECONNECT_OPTIONS:1600,WMQ_CLIENT_RECONNECT:5005',@map(type='text'))define stream SweetProductionStream(name string, amount double);
 </code></pre>
 
-<p style="word-wrap: break-word">This exampe shows how to connect to an IBM message queue and receive messages.</p>
+<p></p>
+
+<p style="word-wrap: break-word;margin: 0;">This exampe shows how to connect to an IBM message queue and receive messages.</p>
+
+<p></p>
                 
                   
                 
@@ -817,7 +831,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../1.1.1/" title="1.1.1" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../latest/" title="latest" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -826,19 +840,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                1.1.1
+                latest
               </span>
             </div>
           </a>
         
         
-          <a href="../1.0.7/" title="1.0.7" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../1.1.2/" title="1.1.2" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                1.0.7
+                1.1.2
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
