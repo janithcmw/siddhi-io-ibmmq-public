@@ -21,7 +21,6 @@ package io.siddhi.extension.io.ibmmq.sink;
 
 import com.ibm.mq.jms.MQQueueConnectionFactory;
 import com.ibm.msg.client.wmq.WMQConstants;
-
 import io.siddhi.annotation.Example;
 import io.siddhi.annotation.Extension;
 import io.siddhi.annotation.Parameter;
@@ -36,17 +35,15 @@ import io.siddhi.core.util.snapshot.state.StateFactory;
 import io.siddhi.core.util.transport.DynamicOptions;
 import io.siddhi.core.util.transport.OptionHolder;
 import io.siddhi.extension.io.ibmmq.sink.exception.IBMMQSinkAdaptorRuntimeException;
+import io.siddhi.extension.io.ibmmq.util.IBMMQConstants;
 import io.siddhi.query.api.definition.StreamDefinition;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import io.siddhi.extension.io.ibmmq.util.IBMMQConstants;
 
 import java.nio.ByteBuffer;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
-
 import javax.jms.BytesMessage;
 import javax.jms.JMSException;
 import javax.jms.MapMessage;
