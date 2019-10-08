@@ -18,12 +18,12 @@ For information on <a target="_blank" href="https://siddhi.io/">Siddhi</a> and i
 
 ## Latest API Docs 
 
-Latest API Docs is <a target="_blank" href="https://siddhi-io.github.io/siddhi-io-ibmmq/api/1.1.2">1.1.2</a>.
+Latest API Docs is <a target="_blank" href="https://siddhi-io.github.io/siddhi-io-ibmmq/api/3.0.0">3.0.0</a>.
 
 ## Features
 
-* <a target="_blank" href="https://siddhi-io.github.io/siddhi-io-ibmmq/api/1.1.2/#ibmmq-sink">ibmmq</a> *<a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#sink">(Sink)</a>*<br><div style="padding-left: 1em;"><p>IBM MQ sink allows you to publish messages to an IBM MQ broker.</p></div>
-* <a target="_blank" href="https://siddhi-io.github.io/siddhi-io-ibmmq/api/1.1.2/#ibmmq-source">ibmmq</a> *<a target="_blank" href="https://wso2.github.io/siddhi/documentation/siddhi-4.0/#source">(Source)</a>*<br><div style="padding-left: 1em;"><p>IBM MQ source allows you to subscribe to an IBM message queue and receive messages. It has the ability to receive messages of the 'map' and 'text' message formats.</p></div>
+* <a target="_blank" href="https://siddhi-io.github.io/siddhi-io-ibmmq/api/3.0.0/#ibmmq-sink">ibmmq</a> *(<a target="_blank" href="http://siddhi.io/en/v5.1/docs/query-guide/#sink">Sink</a>)*<br> <div style="padding-left: 1em;"><p><p style="word-wrap: break-word;margin: 0;">IBM MQ sink allows you to publish messages to an IBM MQ broker.</p></p></div>
+* <a target="_blank" href="https://siddhi-io.github.io/siddhi-io-ibmmq/api/3.0.0/#ibmmq-source">ibmmq</a> *(<a target="_blank" href="http://siddhi.io/en/v5.1/docs/query-guide/#source">Source</a>)*<br> <div style="padding-left: 1em;"><p><p style="word-wrap: break-word;margin: 0;">IBM MQ source allows you to subscribe to an IBM message queue and receive messages. It has the ability to receive messages of the 'map' and 'text' message formats.</p></p></div>
 
 ## Dependencies
 Please add <a target="_blank" href="http://central.maven.org/maven2/com/ibm/mq/com.ibm.mq.allclient/9.0.5.0/com.ibm.mq.allclient-9.0.5.0.jar">com.ibm.mq.allclient_9.0.5.0_1.0.0.jar</a> and <a target="_blank" href="http://central.maven.org/maven2/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar">javax.jms-api-2.0.1.jar</a> dependencies
